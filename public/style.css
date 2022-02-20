@@ -1,0 +1,64 @@
+* {
+    margin: 0;              /* remove all margins */
+    padding: 0;             /* remove all paddings */
+    box-sizing: border-box;
+}
+
+body{
+    padding: 100;
+    height: 100vh;  /* height, full screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.location {
+    text-align: center;
+    font-size: 30px;
+}
+
+.temperature-description {
+    text-align: center;
+    font-size: 30px;
+}
+
+.temperature-icon {
+    align-items: center;
+}
+
+.temperature-section {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+} 
+
+.temperature-section span {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.temperature-icon {
+    align-items: center;
+}
+
+.grey {
+    color: lightgrey
+}
+
+.left {
+    font-size: 20px;
+    padding: 50;
+    float: left;
+    width: 45%;
+}
+
+.right {
+    font-size: 20px;
+    padding: 50;
+    float: right;
+    width: 50%;
+}
